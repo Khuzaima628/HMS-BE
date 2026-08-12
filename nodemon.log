@@ -1,0 +1,459 @@
+
+> be-hospotal-2@1.0.0 dev
+> nodemon
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src\**\*[39m
+[33m[nodemon] watching extensions: ts[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[0mPOST /api/v1/auth/forgot-password [33m400[0m 439.012 ms - 59[0m
+[0mPOST /api/v1/auth/forgot-password [33m400[0m 3.632 ms - 59[0m
+[0mPOST /api/v1/auth/forgot-password [33m400[0m 2051.871 ms - 56[0m
+[0mPOST /api/v1/auth/forgot-password [32m200[0m 2358.327 ms - 65[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[43motp for Forgot Password[49m 981499
+[0mPOST /api/v1/auth/forgot-password [32m200[0m 3662.052 ms - 62[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node --files -r tsconfig-paths/register src/server.ts`[39m
+[30m[46mServer running at http://localhost:5000[49m[39m
+[30m[42mMongoDB connected[49m[39m
+[0mPOST /api/v1/auth/login [32m200[0m 1487.739 ms - 758[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 1309.208 ms - 64[0m
+[0mGET /api/v1/auth/me [32m200[0m 206.425 ms - 262[0m

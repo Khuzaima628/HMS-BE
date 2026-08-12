@@ -1,0 +1,364 @@
+[37m[41mMongoDB connection failed[49m[39m MongoNetworkTimeoutError: Socket 'secureConnect' timed out after 30970ms (connectTimeoutMS: 30000)
+    at TLSSocket.<anonymous> (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\mongodb\src\cmap\connect.ts:434:11)
+    at Object.onceWrapper (node:events:632:28)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at TLSSocket.Socket._onTimeout (node:net:609:8)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7) {
+  errorLabelSet: Set(2) { 'SystemOverloadedError', 'RetryableError' },
+  beforeHandshake: false,
+  connectionGeneration: 0,
+  [cause]: undefined
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(140,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(136,13): error TS2695: Left side of comma operator is unused and has no side effects.
+src/services/authServices.ts(141,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+src/services/authServices.ts(136,11): error TS1005: ';' expected.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2695, 7006, 1005 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(141,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(141,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(142,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(142,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(142,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/services/authServices.ts(138,44): error TS7006: Parameter 'body' implicitly has an 'any' type.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 7006 ]
+}
+[37m[41mMongoDB connection failed[49m[39m MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\mongoose\lib\connection.js:1111:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-cv3owla-shard-00-00.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-01.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-02.mkallzp.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-uccey2-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-cv3owla-shard-00-00.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-01.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-02.mkallzp.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-uccey2-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/authController.ts(68,8): error TS2304: Cannot find name 'cosnt'.
+src/controllers/authController.ts(68,14): error TS2552: Cannot find name 'resetPasswordController'. Did you mean 'forgotPasswordController'?
+src/controllers/authController.ts(68,81): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+src/controllers/authController.ts(68,1): error TS1128: Declaration or statement expected.
+src/controllers/authController.ts(68,8): error TS1435: Unknown keyword or identifier. Did you mean 'const'?
+src/controllers/authController.ts(68,41): error TS1109: Expression expected.
+src/controllers/authController.ts(68,52): error TS1005: ')' expected.
+src/controllers/authController.ts(70,2): error TS1005: ';' expected.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2304, 2552, 2355,
+    1128, 1435, 1109,
+    1005, 1005
+  ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/authController.ts(68,8): error TS2304: Cannot find name 'cosnt'.
+src/controllers/authController.ts(68,14): error TS2552: Cannot find name 'resetPasswordController'. Did you mean 'forgotPasswordController'?
+src/controllers/authController.ts(68,1): error TS1128: Declaration or statement expected.
+src/controllers/authController.ts(68,8): error TS1435: Unknown keyword or identifier. Did you mean 'const'?
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2304, 2552, 1128, 1435 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/authController.ts(71,3): error TS1109: Expression expected.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 1109 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/authController.ts(72,17): error TS2551: Property 'sucess' does not exist on type '{ success: (res: Response<any, Record<string, any>>, data: unknown, message?: string, statusCode?: number) => void; error: (res: Response<any, Record<string, any>>, message?: string, statusCode?: number, errors?: unknown) => void; }'. Did you mean 'success'?
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2551 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/authController.ts(72,25): error TS2345: Argument of type 'string' is not assignable to parameter of type 'Response<any, Record<string, any>>'.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2345 ]
+}
+D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/routes/authRoutes.ts(9,3): error TS1005: ',' expected.
+
+    at createTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.require.extensions.<computed> [as .ts] (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 1005 ]
+}
+[37m[41mMongoDB connection failed[49m[39m MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (D:\Practice\Assests\PRACTICE_NODE.JS\be-hospotal-2\node_modules\mongoose\lib\connection.js:1111:11)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:549:9)
+    at processTimers (node:internal/timers:523:7) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-cv3owla-shard-00-00.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-01.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-02.mkallzp.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-uccey2-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-cv3owla-shard-00-00.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-01.mkallzp.mongodb.net:27017' => [ServerDescription],
+      'ac-cv3owla-shard-00-02.mkallzp.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-uccey2-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
