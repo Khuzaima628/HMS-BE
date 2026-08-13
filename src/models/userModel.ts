@@ -112,6 +112,15 @@ const userSchema = new Schema(
   { timestamps: true },
 );
 
+userSchema.virtual("ratings", {
+  ref: "Rating",
+  localField: "_id",
+  foreignField: "doctorId",
+});
+
+userSchema.set("toJSON", { virtuals: true });
+userSchema.set("toObject", { virtuals: true });
+
 type UserType = InferSchemaType<typeof userSchema>;
 const UserModel = models.User || model<UserType>("User", userSchema);
 export default UserModel;
