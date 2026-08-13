@@ -7,6 +7,13 @@ export const AppointmentService = async (
   patientId: Types.ObjectId,
   body: AppointmentBody,
 ) => {
+  const doctor = body.doctor;
+  const date = body.date;
+  const time = body.time;
+  const checkExistingAppointment = await appointmentModel.find({doctor, date, time});
+  if (checkExistingAppointment.length > 0) {
+    throw new AppError(409, "Appointment already exists for this doctor at this time");
+  }
   const appointment = await appointmentModel.create({
     ...body,
     patient: patientId,
@@ -40,15 +47,25 @@ export const getMyAppointmentsService = async (
 
 export const updateAppointmentService = async (
   userId: string,
+  role: string,
   status: string,
   appointmentId: string,
 ) => {
+  if (role === "patient" && status === "confirmed") {
+    throw new AppError(
+      409,
+      "You do not have access to confirm the appointment",
+    );
+  }
+
+  const ownerFilter =
+    role === "doctor" ? { doctor: userId } : { patient: userId };
+
   const appointment = await appointmentModel.findOneAndUpdate(
-    { _id: appointmentId, patient: userId },
+    { _id: appointmentId, ...ownerFilter },
     { status },
     { new: true },
   );
-  console.log(userId, status, appointmentId, "from services");
   if (!appointment) {
     throw new AppError(404, "Appointment not found");
   }

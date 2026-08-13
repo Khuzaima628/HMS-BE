@@ -34,7 +34,7 @@ appointmentRouter.get(
 appointmentRouter.patch(
   "/appointments/:appointmentId",
   authMiddleware,
-  restrictMiddleware("patient"),
+  // restrictMiddleware("patient"),
   updateAppointmentController,
 );
 

@@ -33,9 +33,10 @@ export const updateAppointmentController = catchAsync(
   async (req: Request, res: Response): Promise<void> => {
     const { status } = req.body;
     const { appointmentId } = req.params;
-    console.log(req.user._id, status, appointmentId);
+    console.log(req.user._id, req.user.role, status, appointmentId);
     const data = await updateAppointmentService(
       req.user._id,
+      req.user.role,
       status as string,
       appointmentId as any,
     );
