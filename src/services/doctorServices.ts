@@ -19,7 +19,7 @@ export const getDoctorByIdService = async (specialty?: string) => {
   if (doctors.length === 0) {
     throw new AppError(404, "Doctor not found");
   }
-
+ 
   return doctors.map((doctor) => {
     const ratings = doctor.get("ratings") as Array<{ rating: number }>;
     const ratingCount = ratings.length;
