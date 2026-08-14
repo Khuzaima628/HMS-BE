@@ -11,7 +11,7 @@ if (!mongoUri) {
 
 mongoose
   .connect(mongoUri)
-  .then(() => console.log("MongoDB connected".bgGreen.black))
+  .then(() => console.error("MongoDB connected".bgGreen.black))
   .catch((error: unknown) => {
     console.error("MongoDB connection failed".bgRed.white, error);
     process.exit(1);

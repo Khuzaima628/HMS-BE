@@ -1,4 +1,9 @@
-import express, { type Express, type NextFunction, type Request, type Response } from "express";
+import express, {
+  type Express,
+  type NextFunction,
+  type Request,
+  type Response,
+} from "express";
 import cookieParser from "cookie-parser";
 import "colors";
 import helmet from "helmet";
@@ -28,11 +33,11 @@ const app = express();
 
 // Prints immediately when a request reaches this Express app.
 app.use((req, _res, next) => {
-  console.log(`REQUEST RECEIVED: ${req.method} ${req.originalUrl}`.bgCyan);
+  console.error(`REQUEST RECEIVED: ${req.method} ${req.originalUrl}`.bgCyan);
   next();
 });
 
-app.use(morgan("dev"));
+app.use(morgan("dev", { stream: process.stderr }));
 app.use(express.json({ limit: "10kb" }));
 app.use(cookieParser());
 
@@ -83,7 +88,12 @@ app.get("/health", (_req: Request, res: Response) => {
 });
 
 app.all("/{*splat}", (req: Request, _res: Response, next: NextFunction) => {
-  next(new AppError(404, `Cannot find ${req.method} ${req.originalUrl} on this server`));
+  next(
+    new AppError(
+      404,
+      `Cannot find ${req.method} ${req.originalUrl} on this server`,
+    ),
+  );
 });
 
 app.use(globalErrorHandler);

@@ -15,7 +15,10 @@ export const registerSchema = Joi.object({
     "any.required": "Password is required",
   }),
 
-  role: Joi.string().valid(Role.Patient, Role.Doctor).default(Role.Patient),
+  role: Joi.string().valid(Role.Patient, Role.Doctor).default(Role.Patient).required().messages({
+    "any.required": "Role is required",
+    "string.role": "Invalid Role",
+  }),
 
   specialty: Joi.string()
     .valid(...Object.values(Specialty))
