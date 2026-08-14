@@ -1,7 +1,7 @@
 import crypto from "crypto";
 import jwt, { type JwtPayload } from "jsonwebtoken";
 
-const ACCESS_TOKEN_EXPIRES_IN = "1h";
+const ACCESS_TOKEN_EXPIRES_IN = "3h";
 const REFRESH_TOKEN_EXPIRES_IN = "15d";
 
 const getSecret = (

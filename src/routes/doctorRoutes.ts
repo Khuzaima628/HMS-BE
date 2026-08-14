@@ -23,6 +23,7 @@ doctorRoutes.get(
   getPatientStatsController,
 );
 
+doctorRoutes.get("/doctors", getDoctorByCategory);
 doctorRoutes.get("/doctors/:specialty", getDoctorByCategory);
 
 export default doctorRoutes;
