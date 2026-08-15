@@ -21,7 +21,9 @@ export const adminStatsService = async (adminId: String, role: string) => {
 };
 
 export const getAllAppointments = async () => {
-  const allAppointments = await AppointmentModel.find();
+  const allAppointments = await AppointmentModel.find()
+    .populate("patient", "fullName email")
+    .populate("doctor", "fullName email specialty");
   return { allAppointments };
 };
 

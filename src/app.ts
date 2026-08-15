@@ -4,6 +4,7 @@ import express, {
   type Request,
   type Response,
 } from "express";
+import cors from "cors";
 import cookieParser from "cookie-parser";
 import "colors";
 import helmet from "helmet";
@@ -30,6 +31,35 @@ process.on("unhandledRejection", (reason: unknown) => {
 });
 
 const app = express();
+
+// CORS configuration
+const allowedOrigins = (process.env.FRONTEND_URL ??
+  "http://localhost:3000,http://localhost:5173")
+  .split(",")
+  .map((url) => url.trim())
+  .filter(Boolean);
+
+const corsOptions: cors.CorsOptions = {
+  origin: (origin, callback) => {
+    // Allow non-browser clients (Postman, curl) where Origin is undefined.
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+
+    // Dev-friendly: don't block unknown localhost origins during integration.
+    if (process.env.NODE_ENV !== "production") return callback(null, true);
+
+    return callback(null, false);
+  },
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
+// Express v5 doesn't accept "*" as a route pattern. Use a named wildcard instead.
+app.options("/{*splat}", cors(corsOptions));
 
 // Prints immediately when a request reaches this Express app.
 app.use((req, _res, next) => {
@@ -73,8 +103,8 @@ app.use(
   "/api",
   rateLimit({
     limit: 100,
-    windowMs: 60 * 60 * 1000,
-    message: "Too many requests from this IP, please try again in an hour!",
+    windowMs: 60 * 1000,
+    message: "Too many requests from this IP, please try again in a minute!",
   }),
 );
 routes(app);

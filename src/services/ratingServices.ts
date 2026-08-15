@@ -18,7 +18,10 @@ export const createRating = async (ratingBody: RatingBody) => {
   if (!checkAppointment) {
     throw new AppError(404, "Appointment not found");
   }
-  if (checkAppointment.status !== "completed") {
+  if (
+    checkAppointment.status !== "completed" &&
+    checkAppointment.status !== "complete"
+  ) {
     throw new AppError(400, "Appointment is not completed yet");
   }
   const checkRating = await ratingModal.findOne({

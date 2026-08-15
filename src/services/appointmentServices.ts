@@ -2,6 +2,7 @@ import AppError from "@src/utils/appError";
 import appointmentModel from "@src/models/appointmentModel";
 import { AppointmentBody } from "@src/types/appointmentTypes";
 import type { Types } from "mongoose";
+import { notifyAppointmentUpdated, notifyNewAppointment } from "@src/services/notificationServices";
 
 export const AppointmentService = async (
   patientId: Types.ObjectId,
@@ -25,6 +26,15 @@ export const AppointmentService = async (
   if (!appointment) {
     throw new AppError(400, "Appointment not created");
   }
+
+  await notifyNewAppointment({
+    appointmentId: appointment._id,
+    patientId,
+    doctorId: doctor,
+    date: appointment.date,
+    time: appointment.time,
+  });
+
   return appointment;
 };
 
@@ -69,6 +79,15 @@ export const updateAppointmentService = async (
   if (!appointment) {
     throw new AppError(404, "Appointment not found");
   }
+
+  await notifyAppointmentUpdated({
+    appointmentId: appointment._id,
+    patientId: appointment.patient as unknown as Types.ObjectId,
+    doctorId: appointment.doctor as unknown as Types.ObjectId,
+    updatedById: userId,
+    updatedByRole: role,
+    status,
+  });
 
   return appointment;
 };

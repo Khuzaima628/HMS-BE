@@ -13,6 +13,7 @@ import {
   loginRefreshToken,
   verifyRefreshToken,
 } from "@src/utils/jwt";
+import { notifyAdminsNewUser } from "@src/services/notificationServices";
 
 export const signUpService = async (body: SignUpBody) => {
   const existingUser = await UserModel.findOne({ email: body.email });
@@ -31,6 +32,14 @@ export const signUpService = async (body: SignUpBody) => {
     otp,
     otpExpiry,
   });
+
+  await notifyAdminsNewUser({
+    _id: user._id,
+    fullName: user.fullName,
+    email: user.email,
+    role: user.role,
+  });
+
   const safeUser = user.toObject();
 
   delete safeUser.password;
@@ -199,4 +208,3 @@ export const logoutService = async (body: RefreshTokenBody) => {
   currentUser.refreshTokenHash = undefined;
   await currentUser.save();
 };
-
