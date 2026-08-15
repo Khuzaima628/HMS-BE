@@ -1,4 +1,4 @@
-import type { UserType } from "@src/models/userModal";
+import type { UserType } from "@src/models/userModel";
 import type { HydratedDocument } from "mongoose";
 
 declare global {
